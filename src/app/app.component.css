@@ -1,0 +1,18 @@
+.abc {
+  background-color: yellow;
+  color: blue;
+  padding: 7px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.active-link {
+  background-color: antiquewhite;
+  color: yellowgreen;
+  padding: 7px;
+  border-radius: 5px;
+  border: 2px solid #282828;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
