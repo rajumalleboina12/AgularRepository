@@ -1,0 +1,39 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "virat",
+      "country": "india",
+      "category": "batter",
+      "image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170661/virat-kohli.jpg"
+    },
+    {
+      "id": 2,
+      "name": "dhoni",
+      "country": "india",
+      "category": "keeper",
+      "image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170677/ms-dhoni.jpg"
+    },
+    {
+      "id": 3,
+      "name": "rohit",
+      "country": "india",
+      "category": "batter",
+      "image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170658/rohit-sharma.jpg"
+    },
+    {
+      "id": 4,
+      "name": "rahul",
+      "country": "india",
+      "category": "batter",
+      "image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170673/kl-rahul.jpg"
+    },
+    {
+      "id": 5,
+      "name": "sachin",
+      "country": "india",
+      "category": "batter",
+      "image": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170673/kl-rahul.jpg"
+    }
+  ]
+}
