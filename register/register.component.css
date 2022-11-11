@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.design {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-button {
+  cursor: pointer;
+  background-color: aqua;
+  width: 80px;
+  margin-left: 50px;
+  border-radius: 60px;
+}
