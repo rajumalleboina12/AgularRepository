@@ -1,0 +1,62 @@
+.mob-table {
+  width: 800px;
+  padding: 20px 25px;
+  background-color: skyblue;
+  margin: 30px 0;
+  border-radius: 3px;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 30px;
+  background-color: grey;
+  color: white;
+}
+
+.add {
+  background-color: greenyellow;
+  color: white;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mobileForm {
+  background-color: white;
+  width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-control {
+  width: 80%;
+}
+
+.group {
+  display: flex;
+  margin: 15px 0;
+}
+
+.group label {
+  width: 70px;
+  line-height: 40px;
+  height: 40px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 20px;
+}
