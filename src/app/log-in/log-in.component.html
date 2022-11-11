@@ -1,0 +1,42 @@
+<head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <h1>Student Details</h1>
+  <nav class="navbar">
+    <input
+      class="form-control"
+      type="text"
+      name="FullName"
+      [(ngModel)]="FullName"
+      placeholder="Enter FirstName to search"
+    />
+  </nav>
+  <button type="submit" (click)="Search()">Search</button>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Student id</th>
+        <th>FullName</th>
+        <th>ObtainedMarks</th>
+      </tr>
+    </thead>
+    <tbody
+      *ngFor="
+        let detail of details | paginate: { itemsPerPage: 4, currentPage: p }
+      "
+    >
+      <td>{{ detail.id }}</td>
+      <td>{{ detail.FullName }}</td>
+      <td>{{ detail.ObtainedMarks }}</td>
+    </tbody>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </table>
+  <i class="fa fa-trash" aria-hidden="true"></i>
+</body>

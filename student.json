@@ -1,0 +1,29 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "Full Name": "Raju Malleboina",
+      "Obtained Marks": 80
+    },
+    {
+      "id": 2,
+      "Full Name": "Avinash Guntupalli",
+      "Obtained Marks": 85
+    },
+    {
+      "id": 3,
+      "Full Name": "Renu peddibhotla",
+      "Obtained Marks": 95
+    },
+    {
+      "id": 4,
+      "Full Name": "Prasad Appari",
+      "Obtained Marks": 88
+    },
+    {
+      "id": 5,
+      "Full Name": "Prudhvi Dhogiparthi",
+      "Obtained Marks": 90
+    }
+  ]
+}
